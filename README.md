@@ -2,7 +2,7 @@
 A cute, retro-styled pixel art calculator built with HTML, CSS, and JavaScript. Featuring floating pixel hearts, twinkling sparkles, and a chunky 8-bit aesthetic!
 
 
-#IT FEATURES:
+# IT FEATURES:
 
 - Pixel Art Design — Chunky borders, 3D button shadows, and retro scanlines for that authentic 8-bit feel
 - Floating Hearts — 6 pixel hearts bobbing gently around the calculator
@@ -11,7 +11,7 @@ A cute, retro-styled pixel art calculator built with HTML, CSS, and JavaScript. 
 - Responsive — Centered layout that works on any screen size
 - Color-Coded Buttons — Blue-grey numbers, pink clears, and an orange equals button
 
-#HOW TO USE
+# HOW TO USE
 
 Action * Input
 Numbers - Click buttons or press `0-9`
@@ -23,7 +23,7 @@ Backspace - Press `Backspace`
 Percent - Click `%` or press `%`
 Decimal - Click `.` or press `.`
 
-#BUILT WITH:
+# BUILT WITH:
 
 HTML5 — Semantic structure
 CSS3 — Grid layout, keyframe animations, SVG rendering
@@ -33,24 +33,24 @@ SVG Pixel Art — Custom pixel art renderer for crisp hearts at any size
 
 
 
-#///IF YOU WANT TO COSTUMIZE IT FEEL FREE TO DO SO///
+# ///IF YOU WANT TO COSTUMIZE IT FEEL FREE TO DO SO///
  
-#//Change the Background Color
+# //Change the Background Color
 
 body { background-color: #2d1b2e; /* Your color here */}
 
 
-#//Add More Hearts
+# //Add More Hearts
 
 <div class="deco heart-deco7" id="heart7"></div>
 
 
-#//And render it in JavaScript:
+# //And render it in JavaScript:
 
 renderPixelArt('heart7', heartMap, heartColors, 5);
 
 
-#//Change Heart Colors
+# //Change Heart Colors
 
 
 const heartColors = {
@@ -59,25 +59,25 @@ const heartColors = {
     'W': '#ffffff'   /* Highlight */};
 
     
-//Adjust Animation Speed on CSS
+# //Adjust Animation Speed on CSS
 
 .heart-deco1 {
     animation: float1 4s ease-in-out infinite; /* Change 4s */}
 
  
-#//File Structure//
+# //File Structure//
 
 pink-pixel-calculator/
 ├── calculator.html    # Everything in one file!
 └── README.md          # This file
 
-#//Credits:
+# //Credits:
 Font: Press Start 2P by CodeMan38
 Inspiration: Retro gaming aesthetics
 
 
-#//License:
+# //License:
 Feel free to use, modify, and share! Made with love and pixels 
 
 
-#"Math is better when it's cute!" ✨🎀
+# "Math is better when it's cute!" ✨🎀
